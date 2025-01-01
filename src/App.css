@@ -1,0 +1,102 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.resume-container {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  padding: 20px;
+  max-width: 800px;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2em;
+  color: #2c3e50;
+}
+
+header p {
+  margin: 5px 0;
+  font-size: 1em;
+}
+
+header a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+section {
+  margin-bottom: 20px;
+}
+
+section h2 {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #34495e;
+  border-bottom: 2px solid #ecf0f1;
+  padding-bottom: 5px;
+}
+
+section p,
+section ul {
+  margin: 0 0 10px 0;
+}
+
+section ul {
+  padding-left: 20px;
+}
+
+section ul li {
+  margin-bottom: 5px;
+}
+
+a {
+  color: #2980b9;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
