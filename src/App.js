@@ -12,7 +12,7 @@ function App() {
       
         </div>
         <div className="image-container">
-          <img src={profile} alt="image"/>
+          <img src={profile} alt="profile"/>
         </div>
         </header>
 
