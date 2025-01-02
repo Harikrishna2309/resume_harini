@@ -115,6 +115,26 @@ a:hover {
 .image-container img {
   object-fit: cover;
   object-position: center;
-  width: 100%;
+  width: 93%;
   height: 100%;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  font-size: 18px;
+  text-align: left;
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+th {
+  background-color: #f4f4f4;
+  font-weight: bold;
+}
+.academic-sec{
+  overflow: scroll;
 }
