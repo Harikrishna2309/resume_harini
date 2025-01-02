@@ -1,14 +1,20 @@
 import './App.css';
-
+import profile from './images/image.png'
 function App() {
   return (
     <div className="resume-container">
-      <header>
+      <header className="header-class">
+        <div className="header-left">
         <h1>Harini E A</h1>
         <p>Email: <a href="mailto:harinieswaran@gmail.com">harinieswaran@gmail.com</a></p>
         <p>Cell: 7397105663</p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/harini-eswaran" target="_blank" rel="noopener noreferrer">www.linkedin.com/in/harini-eswaran</a></p>
-      </header>
+        <p> <a href="https://www.linkedin.com/in/harini-eswaran" target="_blank" rel="noopener noreferrer">LinkedIn</a></p>
+      
+        </div>
+        <div className="image-container">
+          <img src={profile} alt="image"/>
+        </div>
+        </header>
 
       <section>
         <h2>Career Objective</h2>
